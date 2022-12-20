@@ -44,8 +44,9 @@
 
 /* ESERCIZIO 6 */
 
-.ex-6-img{
+.ex-6-img:hover{
   filter: grayscale(10);
 }
 
-E
+/* ESERCIZIO 7 */
+
