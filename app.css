@@ -7,7 +7,7 @@
 /* ESERCIZIO 2 */
 
 
-.ex-2-square:hover{
+.ex-2-square:active{
   width: 500px;
   transition: width 2s;
 }
