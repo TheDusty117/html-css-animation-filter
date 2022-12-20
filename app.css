@@ -91,3 +91,30 @@ in modo tale da farlo roteare lentamente dal punto A a quello B */
     transform: rotate(359deg);
   }
 }
+
+/* ESERCIZIO 11 */
+
+.ex-11-icon:hover{
+  animation: rotation 2s infinite linear;
+}
+
+/* in pratica qui divido il tempo in cui roteare, in percentuale,
+dando nel 0-75 % l'azione di rotazione fino a 270 gradi,
+e poi dal 75-100% l'azione di roteare da 270 gradi a 0 gradi,
+chiaramente lo fara' in minor tempo grazie alla percentuale 
+minore di quest'ultima parte */
+
+@keyframes rotation {
+  0%{
+    transform: rotate(0deg);
+  }
+  75%{
+    transform: rotate(270deg);
+  }
+  100%{
+    transform: rotate(0deg);
+  }
+ 
+}
+
+
