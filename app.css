@@ -41,3 +41,11 @@
   width: 20px;
   height: 20px;
 }
+
+/* ESERCIZIO 6 */
+
+.ex-6-img{
+  filter: grayscale(10);
+}
+
+E
