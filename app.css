@@ -54,3 +54,12 @@
   filter: blur(10px) grayscale(10);
   transition: 3s;
 }
+
+/* ESERCIZIO 8 */
+
+.ex-8-img:hover{
+  filter: opacity(50%) grayscale(10);
+  border-radius: 20px;
+  transition: 2s;
+}
+
