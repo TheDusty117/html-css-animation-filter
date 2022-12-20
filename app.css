@@ -50,3 +50,7 @@
 
 /* ESERCIZIO 7 */
 
+.ex-7-img:hover{
+  filter: blur(10px) grayscale(10);
+  transition: 3s;
+}
