@@ -71,3 +71,23 @@
   aspect-ratio: 4/3;
   transition: 4s;
 }
+
+/* ESERCIZIO 10 */
+
+/* seleziono l'immagine con hover, poi attribuisco l'animazione 
+di 2 secondi, con moto lineare perpetuo. */
+.ex-10-icon:hover{
+  animation: rotation 2s infinite linear;
+}
+
+/* uso @keyframes rotation, facendolo partire da 0 gradi fino a 359 gradi
+in modo tale da farlo roteare lentamente dal punto A a quello B */
+
+@keyframes rotation {
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(359deg);
+  }
+}
