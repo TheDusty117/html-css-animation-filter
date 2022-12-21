@@ -68,7 +68,7 @@
 .ex-9-img:hover{
   filter: blur(5px) sepia(90%);
   border-radius: 40px;
-  aspect-ratio: 4/3;
+  transform: scale(2.5);
   transition: 4s;
 }
 
